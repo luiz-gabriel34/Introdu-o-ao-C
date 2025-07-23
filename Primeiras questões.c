@@ -44,9 +44,9 @@ LETRA C)
  #include <stdlib.h>           
 int main() {
       printf("escreva o primeiro numero: ");
-      scantf("%d" &num1);
+      scanf("%d" &num1);
       printf("escreva o segundo numero: ");
-      scantf("%d" &num2);
+      scanf("%d" &num2);
 }
 
 LETRA D)
@@ -65,7 +65,7 @@ LETRA F)
  #include <stdlib.h>           
   int main(){
     printf("Informe o valor do raio: ");
-    scantf("%d" &raio);
-    printf("Informe o valor da altura: ");
-    scantf("%d" &altura);
+    scanf("%d" &raio);
+    prinf("Informe o valor da altura: ");
+    scanf("%d" &altura);
   }
